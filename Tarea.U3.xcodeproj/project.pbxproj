@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		40FB53391BA9E6DA00FA8BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB53381BA9E6DA00FA8BFD /* AppDelegate.swift */; };
-		40FB533B1BA9E6DA00FA8BFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB533A1BA9E6DA00FA8BFD /* ViewController.swift */; };
+		40FB533B1BA9E6DA00FA8BFD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB533A1BA9E6DA00FA8BFD /* LoginViewController.swift */; };
 		40FB533E1BA9E6DA00FA8BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FB533C1BA9E6DA00FA8BFD /* Main.storyboard */; };
 		40FB53401BA9E6DA00FA8BFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FB533F1BA9E6DA00FA8BFD /* Images.xcassets */; };
 		40FB53431BA9E6DA00FA8BFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40FB53411BA9E6DA00FA8BFD /* LaunchScreen.xib */; };
 		40FB534F1BA9E6DA00FA8BFD /* Tarea_U3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB534E1BA9E6DA00FA8BFD /* Tarea_U3Tests.swift */; };
+		40FB535B1BA9E89100FA8BFD /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB535A1BA9E89100FA8BFD /* Usuario.swift */; };
+		40FB535D1BA9EAB100FA8BFD /* Usuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB535C1BA9EAB100FA8BFD /* Usuarios.swift */; };
+		40FB535F1BA9EFDD00FA8BFD /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB535E1BA9EFDD00FA8BFD /* InicioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		40FB53331BA9E6DA00FA8BFD /* Tarea.U3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarea.U3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FB53371BA9E6DA00FA8BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40FB53381BA9E6DA00FA8BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40FB533A1BA9E6DA00FA8BFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40FB533A1BA9E6DA00FA8BFD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		40FB533D1BA9E6DA00FA8BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40FB533F1BA9E6DA00FA8BFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		40FB53421BA9E6DA00FA8BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		40FB53481BA9E6DA00FA8BFD /* Tarea.U3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tarea.U3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FB534D1BA9E6DA00FA8BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40FB534E1BA9E6DA00FA8BFD /* Tarea_U3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea_U3Tests.swift; sourceTree = "<group>"; };
+		40FB535A1BA9E89100FA8BFD /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		40FB535C1BA9EAB100FA8BFD /* Usuarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuarios.swift; sourceTree = "<group>"; };
+		40FB535E1BA9EFDD00FA8BFD /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +83,10 @@
 		40FB53351BA9E6DA00FA8BFD /* Tarea.U3 */ = {
 			isa = PBXGroup;
 			children = (
+				40FB53601BA9F48300FA8BFD /* VIews */,
+				40FB53591BA9E88100FA8BFD /* Models */,
+				40FB53581BA9E6E900FA8BFD /* ViewControllers */,
 				40FB53381BA9E6DA00FA8BFD /* AppDelegate.swift */,
-				40FB533A1BA9E6DA00FA8BFD /* ViewController.swift */,
-				40FB533C1BA9E6DA00FA8BFD /* Main.storyboard */,
 				40FB533F1BA9E6DA00FA8BFD /* Images.xcassets */,
 				40FB53411BA9E6DA00FA8BFD /* LaunchScreen.xib */,
 				40FB53361BA9E6DA00FA8BFD /* Supporting Files */,
@@ -110,6 +117,32 @@
 				40FB534D1BA9E6DA00FA8BFD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40FB53581BA9E6E900FA8BFD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				40FB533A1BA9E6DA00FA8BFD /* LoginViewController.swift */,
+				40FB535E1BA9EFDD00FA8BFD /* InicioViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		40FB53591BA9E88100FA8BFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				40FB535A1BA9E89100FA8BFD /* Usuario.swift */,
+				40FB535C1BA9EAB100FA8BFD /* Usuarios.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		40FB53601BA9F48300FA8BFD /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				40FB533C1BA9E6DA00FA8BFD /* Main.storyboard */,
+			);
+			name = VIews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +189,7 @@
 		40FB532B1BA9E6D900FA8BFD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Cristian Martinez Toledo";
 				TargetAttributes = {
@@ -212,8 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40FB533B1BA9E6DA00FA8BFD /* ViewController.swift in Sources */,
+				40FB535D1BA9EAB100FA8BFD /* Usuarios.swift in Sources */,
+				40FB533B1BA9E6DA00FA8BFD /* LoginViewController.swift in Sources */,
 				40FB53391BA9E6DA00FA8BFD /* AppDelegate.swift in Sources */,
+				40FB535F1BA9EFDD00FA8BFD /* InicioViewController.swift in Sources */,
+				40FB535B1BA9E89100FA8BFD /* Usuario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +446,7 @@
 				40FB53541BA9E6DA00FA8BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40FB53551BA9E6DA00FA8BFD /* Build configuration list for PBXNativeTarget "Tarea.U3Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +455,7 @@
 				40FB53571BA9E6DA00FA8BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
